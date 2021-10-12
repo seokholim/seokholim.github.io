@@ -194,7 +194,7 @@ a {
     }
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 950px) {
    .tilt {
         width: 90vw;
         height: 90vh;
@@ -213,17 +213,17 @@ a {
     }
 }
 
-@media only screen and (max-height: 800px) and (max-width: 650px) {
+@media only screen and (max-height: 950px) and (max-width: 470px) {
    .tilt {
         width: 90vw;
         height: 90vh;
     }
-
+    
     h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     h2 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     p {
         font-size: 0.6rem; 
