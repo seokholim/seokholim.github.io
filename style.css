@@ -14,8 +14,8 @@ body {
 
 .tilt {
     border-radius: 3vw 6vw;
-    width: 70vw;
-    height: 70vh;
+    width: 55vw;
+    height: 55vh;
     margin: 0 auto;
     display: block;
     background-image: linear-gradient(217deg, rgba(135,166,0,.8), rgba(135,166,0,0) 90%),
@@ -57,7 +57,7 @@ a {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
     .tilt-inner {
         margin: 0;
         padding: 0;
@@ -67,7 +67,30 @@ a {
         padding: 0;
     }
     h1 {
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 0.50rem;
+    }
+    p {
+        font-size: 0.4rem; 
+    }
+    a.icon {
+        font-size: 0.4rem;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .tilt-inner {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 0;
+    }
+    h1 {
+        font-size: 1.4em;
     }
     h2 {
         font-size: 0.55rem;
@@ -80,13 +103,27 @@ a {
     }
 }
 
-
 @media only screen and (min-width: 600px) {
     h1 {
-        font-size: 2.0rem;
+        font-size: 1.5rem;
     }
     h2 {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+    }
+    p {
+        font-size: 0.7rem; 
+    }
+    a.icon {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+    h2 {
+        font-size: 0.85rem;
     }
     p {
         font-size: 0.7rem; 
@@ -99,10 +136,10 @@ a {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
     h2 {
-        font-size: 1.0rem;
+        font-size: 0.85rem;
     }
     p {
         font-size: 0.7rem; 
@@ -112,10 +149,10 @@ a {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     h1 {
-        font-size: 3.0rem;
+        font-size: 2.5rem;
     }
     h2 {
-        font-size: 1.0rem;
+        font-size: 0.85rem;
     }
     p {
         font-size: 0.8rem; 
@@ -123,27 +160,39 @@ a {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1260px) {
+@media only screen and (min-width: 1290px) {
     h1 {
         font-size: 3.0rem;
     }
     h2 {
-        font-size: 1.1rem;
+        font-size: 0.90rem;
     }
     p {
         font-size: 0.8rem; 
     }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1490px) {
     h1 {
         font-size: 3.0rem;
     }
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.00rem;
     }
     p {
-        font-size: 0.9rem; 
+        font-size: 0.8rem; 
+    }
+}
+
+@media only screen and (min-width: 1530px) {
+    h1 {
+        font-size: 3.0rem;
+    }
+    h2 {
+        font-size: 1.05rem;
+    }
+    p {
+        font-size: 0.8rem; 
     }
 }
 
