@@ -12,15 +12,28 @@
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
-	
+	<script type="text/javascript">
+		function highlight() {
+         	var el = document.getElementById('ad');
+         	let original = el.style.textShadow;
+         	setInterval(
+     			function () {
+         			if (el.style.textShadow == original) {
+         				el.style.textShadow = "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000";
+         			} else {
+         				el.style.textShadow = original
+         			}
+         	}, 800);
+         }
+	</script>
 </head>
-<body>
+<body onload="highlight()">
 	<div class="tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.2" transform-style: preserve-3d style="transform: perspective(300px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); will-change: transform;">
 		<div class="tilt-inner">
 
 			<h1>Seokho Lim</h1>
 			<h2><a href="https://uwaterloo.ca/combinatorics-and-optimization/">Combinatorics and Optimization</a> & <a href="https://uwaterloo.ca/statistics-and-actuarial-science/">Statistics</a><br>@University of Waterloo</h2>
-			<p>Looking for SWE internship opportunities in Winter 2022</p>
+			<p id="ad">Looking for SWE internship opportunities in Winter 2022</p>
 <!-- 			<a class="icon" href="https://www.linkedin.com/in/seokholim/">
 				<i class="fa fa-3x fa-fw fa-linkedin-square"></i>
 			</a> -->
@@ -31,23 +44,6 @@
 	</div>
 	<!-- at the end of the body -->
 	<script type="text/javascript" src="vanilla-tilt.js"></script>
-<!-- 	<script type="text/javascript">
-		// function highlight() {
-  //       	var el = document.getElementById('p');
-  //       	document.getElementById('p').style.textShadow = "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000";
-  //       // 	var original = el.style.textShadow;
-  //       // 	window.setInterval(
-  //    			// function () {
-  //       //  			if (document.getElementById('p').style.textShadow == original) {
-  //       //  				document.getElementById('p').style.textShadow = "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000";
-  //       //  			} else {
-  //       //  				document.getElementById('p') = original
-  //       //  			}
-  //       //  	}, 1000);
-  //   	}
-  //   	highlight();
 
-    	document.getElementById('p').style.textShadow = "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000";
-    </script> -->
 </body>
 </html>
