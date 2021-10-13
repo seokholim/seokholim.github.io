@@ -63,7 +63,7 @@ a {
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     h2 {
         font-size: 0.6rem;
@@ -196,8 +196,8 @@ a {
 
 @media only screen and (max-height: 700px) {
    .tilt {
-        width: 80vw;
-        height: 80vh;
+        width: 90vw;
+        height: 90vh;
     }
     h1 {
         font-size: 7.5vh;
@@ -215,12 +215,12 @@ a {
 
 @media only screen and (max-height: 700px) and (max-width: 470px) {
    .tilt {
-        width: 80vw;
-        height: 80vh;
+        width: 90vw;
+        height: 90vh;
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     h2 {
         font-size: 0.6rem;
