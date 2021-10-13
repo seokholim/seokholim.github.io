@@ -63,7 +63,7 @@ a {
     }
 
     h1 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     h2 {
         font-size: 0.6rem;
@@ -194,10 +194,10 @@ a {
     }
 }
 
-@media only screen and (max-height: 950px) {
+@media only screen and (max-height: 700px) {
    .tilt {
-        width: 90vw;
-        height: 90vh;
+        width: 80vw;
+        height: 80vh;
     }
     h1 {
         font-size: 7.5vh;
@@ -213,14 +213,14 @@ a {
     }
 }
 
-@media only screen and (max-height: 950px) and (max-width: 470px) {
+@media only screen and (max-height: 700px) and (max-width: 470px) {
    .tilt {
-        width: 90vw;
-        height: 90vh;
+        width: 80vw;
+        height: 80vh;
     }
-    
+
     h1 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     h2 {
         font-size: 0.6rem;
