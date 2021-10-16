@@ -44,7 +44,8 @@ p {
 
 a {
     background-color: transparent;
-    color: #FFF
+    color: white;
+    text-decoration: none;
 }
 
 /*i {
@@ -54,6 +55,7 @@ a {
 
 .icon {
     color: #efefef;
+    margin: 0.25vw;
 }
 
 @media only screen and (max-width: 470px) {
@@ -217,6 +219,7 @@ a {
    .tilt {
         width: 90vw;
         height: 90vh;
+        border-radius: 3vw 3vw;
     }
 
     h1 {
