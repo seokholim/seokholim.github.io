@@ -19,8 +19,8 @@ body {
     margin: 0 auto;
     display: block;
     background-image: linear-gradient(217deg, rgba(255,215,0,1), rgba(255,215,0,0) 90%),
-            linear-gradient(127deg, rgba(255,20,60,1), rgba(220,20,60,0) 90%),
-            linear-gradient(336deg, rgba(34,139,34,1), rgba(34,139,34,0) 90%);
+            linear-gradient(127deg, rgba(210,105,30,1), rgba(210,105,30,0) 90%),
+            linear-gradient(336deg, rgba(139,69,19,1), rgba(139,69,19,0) 90%);
     box-shadow: 0 3px 47px rgb(0 0 0 / 20%);
 }
 
